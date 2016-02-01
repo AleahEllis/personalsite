@@ -1,10 +1,12 @@
 .h1and2{
 	background-color: #ffffff;
-	color: green;
+	color: blue;
 
 }
 
-.nav{
+.nav nav ul li {
+	display: inline;
+	float: right;
 
 }
 

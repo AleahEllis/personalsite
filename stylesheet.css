@@ -4,17 +4,18 @@
 
 }
 
-.nav nav ul{
+nav ul li{
 	display: inline;
-	position: fixed;
 	padding: 12 px;
-	color:white;
-	background: blue;
+	color:black;
+	background: white;
+	border: blue 3px;
+	font-style: bold;
+	hover:underline;
 	}
 
-.nav{
-	border: plain black 1px;
-
+nav{
+	position: fixed;
 }
 
 .Paragraph{

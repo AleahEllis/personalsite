@@ -4,12 +4,11 @@
 
 }
 
-.nav{
+.nav nav ul{
+	display: inline;
 	position: fixed;
-	display: block;
 	padding: 12 px;
-	float: right;
-	color: black;
+	color:white;
 	background: blue;
 	}
 

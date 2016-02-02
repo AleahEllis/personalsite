@@ -7,10 +7,13 @@
 	background-color: black;
 	color: white;
 	padding: .2;
-	display:block;
+	display:inline;
 
 }
 
+a:hover, nav li a.current{
+		color: #018918;
+}
 nav ul li{
 	display: inline;
 	color:black;
@@ -42,12 +45,83 @@ nav{
 	display: inline-block;
 	margin: 8px;
 	padding: 12px;
-	border:solid black 1px;
 	background-color: black;
-	height: .3;
-	width:.3;
+	width: 20%;
+    border: 3px solid #73AD21;
 
 }
 img{
 	width: 50%
+}
+
+.pr2{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr3{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr4{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr5{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr6{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr7{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr8{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
+}
+
+.pr9{
+	display: inline-block;
+	margin: 8px;
+	padding: 12px;
+	background-color: black;
+	width: 20%;
+    border: 3px solid #73AD21;
 }

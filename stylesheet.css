@@ -1,5 +1,5 @@
-*{
-	background: grey;
+body{
+	background-color: #93939c
 }
 
 .h1and2{
@@ -37,7 +37,7 @@ nav{
 
 .Paragraph{
 	font-family: sans-serif;
-	font-size: 18px
+	font-size: 18px;
 
 }
 
@@ -48,10 +48,13 @@ nav{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 
 }
 img{
-	width: 50%
+	width: 80%;
+	border: solid black 1px;
+	border-radius:100%;
 }
 
 .pr2{
@@ -61,6 +64,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr3{
@@ -70,6 +74,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr4{
@@ -79,6 +84,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr5{
@@ -88,6 +94,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr6{
@@ -97,6 +104,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr7{
@@ -106,6 +114,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr8{
@@ -115,6 +124,7 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }
 
 .pr9{
@@ -124,4 +134,5 @@ img{
 	background-color: black;
 	width: 20%;
     border: 3px solid #73AD21;
+    border-radius: 200%
 }

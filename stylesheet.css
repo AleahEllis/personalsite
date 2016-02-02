@@ -1,22 +1,36 @@
-.h1and2{
+*{
+	background: grey;
+}
 
+.h1and2{
 	font-family: sans-serif;
+	background-color: black;
+	color: white;
+	padding: .2;
+	display:block;
 
 }
 
 nav ul li{
 	display: inline;
-	padding: 12 px;
 	color:black;
-	background: white;
-	border: blue 3px;
-	font-style: bold;
-	hover:underline;
+	background-color: white;
+	margin: 0;
+	
+	
 	}
+nav ul{
+	background-color: white;
+	opacity: .6;
+	
+}
 
 nav{
 	position: fixed;
+	background-color: white;
+	opacity: .6;
 }
+
 
 .Paragraph{
 	font-family: sans-serif;
@@ -30,5 +44,10 @@ nav{
 	padding: 12px;
 	border:solid black 1px;
 	background-color: black;
+	height: .3;
+	width:.3;
 
+}
+img{
+	width: 50%
 }

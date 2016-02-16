@@ -1,0 +1,29 @@
+header {
+  text-align: center;
+  padding: 2em;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+nav ul li {
+  display: inline;
+  color: #064c96;
+  background-color: #fcfcfc;
+  margin: 1em;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-style: bold;
+}
+nav {
+  position: fixed top;
+  background-color: #fcfcfc;
+  margin: -8;
+  text-align: center;
+  padding: 1em;
+}

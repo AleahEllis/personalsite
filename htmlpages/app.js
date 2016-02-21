@@ -2,18 +2,30 @@
 //read method means it waits to load page until everyting is ready
 //function is a keyword, anonomous, wont to anything until page loads because of .ready method
 $(document).ready(function(){
- $('li').hover(function(){
-		$(this).css("opacity", .25);
+	//decrease opacity on hover
+ 	$('li, span' ).hover(function(){
+		$(this).css("opacity", .50);
 			}, function(){
 				$(this).css("opacity", 1);
-			});		
- 	
- $('li').click(function(){
-	$(this).css("background-color", '#01030F');
-		}, function(){
-			$(this).css("background-color", '#FCFCFC');
-		});		
- $('div.new-words').click(function(){ //try the .replacewith function here. should work more neatly maybe
+	});		
+ 	//A useless click function to get rid of at somepoint maybe
+ 	$('li').click(function(){
+		$(this).css("background-color", '#ffffff');
+			}, function(){
+				$(this).css("background-color", '#ffffff');
+	});		
+ 	//slide toggle nav bar
+ 	$('span.navbtn').click(function(){
+ 		$('ul.nav').slideToggle();
+ 	});
+ 	//keeps nav bar from dissapearing at width>800
+	$(window).resize(function(){
+		if( $(window).width()> 800){
+			$('ul.nav').removeAttr('style')
+		};
+	});
+	//maybe use this for a fade in pics
+ 	$('div.new-words').click(function(){ //try the .replacewith function here. should work more neatly maybe
  	$(this).after("<br>Hello, Clicked!</br>");
 });
 // $('h1').click(function(){

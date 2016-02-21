@@ -1,5 +1,6 @@
-* {
-  border: #000 solid 1px;
+body {
+  padding: 0;
+  margin: 0;
 }
 header {
   text-align: center;
@@ -9,22 +10,59 @@ header {
   top: 0;
   background-image: url("../img/pwall.jpg");
 }
-nav ul li {
-  display: inline;
-  color: #064c96;
-  background-color: #fcfcfc;
-  margin: 1em;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  font-style: bold;
-}
-nav {
-  position: fixed top;
-  background-color: #fcfcfc;
-  margin: -8;
-  text-align: center;
+header h1 {
+  font-family: sans-serif;
+  background-color: rgba(255,255,255,0.4);
+  color: #283833;
   padding: 1em;
+  display: block;
+  margin-bottom: 0;
+}
+header h3 {
+  font-family: sans-serif;
+  background-color: rgba(255,255,255,0.4);
+  color: #283833;
+  padding: 1em;
+  display: block;
+  margin-top: 0;
+}
+.nav {
+  background-color: #32544a;
+  color: #fff;
+  margin: 0em;
+  text-align: center;
+  list-style: none;
+}
+.nav > li {
+  display: inline-block;
+}
+.nav > li > a {
+  font-size: 30px;
+  font-style: bold;
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .nav {
+    text-align: left;
+    display: none;
+  }
+  .nav > li {
+    display: block;
+  }
+  .navbtn {
+    background-color: #32544a;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: none;
+    display: block;
+  }
+  .navbtn:before {
+    content: "Menu";
+  }
 }
 img {
   max-width: 20%;

@@ -1,7 +1,8 @@
 // each li width of at least 200px and a height of at least 50px
-*
-	border black solid 1px
-
+body
+	padding 0
+	margin 0
+	
 header
 	text-align center
 	padding 2em
@@ -9,29 +10,79 @@ header
 	height 100%
 	top 0
 	background-image url("../img/pwall.jpg")
+	
+header h1
 	font-family: sans-serif;
-	background-color: black;
-	color: white;
-	padding: .2;
-	display:inline;
+	background-color rgba(#ffffff, .4)
+	color: #283833
+	padding: 1em
+	display:block;
+	margin-bottom 0
 
-nav ul li
-	display inline
-	color #064C96
-	background-color #FCFCFC
-	margin 1em
-	width 200px
-	height 50px
-	font-size 20px
-	font-style bold
-
-
-nav
-	position fixed top
-	background-color #FCFCFC
-	margin -8
+header h3
+	font-family: sans-serif;
+	background-color rgba(#ffffff, .4)
+	color: #283833
+	padding: 1em
+	display:block;
+	margin-top 0
+.nav
+	background-color #32544A
+	color #ffffff 
+	margin 0em
 	text-align center
-	padding 1em
+	list-style none //not sure I need this one
+.nav > li
+	display inline-block
+.nav > li > a
+	font-size 30px
+	font-style bold
+	color #ffffff 
+	padding .5em
+	text-decoration none
+
+@media (max-width 800px)
+	.nav
+		text-align left
+		display none
+	.nav > li
+		display block
+	.navbtn
+		background-color #32544A
+		color #ffffff 
+		text-align center
+		font-size 30px
+		font-style bold
+		text-decoration none
+		display block
+	.navbtn:before
+		content "Menu"
+		
+		
+		
+		
+
+// nav ul li
+// 	display inline
+// 	background-color #32544A
+// 	margin 1em
+// 	width 200px
+// 	height 50px
+// 	font-size 30px
+// 	font-style bold
+	
+
+// nav ul li a
+// 	color #ffffff 
+	
+
+// nav
+// 	position fixed top
+// 	background-color #32544A
+// 	margin -8
+// 	text-align center
+// 	padding 1em
+
 
 img
 	max-width:20%

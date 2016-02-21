@@ -13,10 +13,12 @@ $(document).ready(function(){
 		}, function(){
 			$(this).css("background-color", '#FCFCFC');
 		});		
- $('p').click(function(){
+ $('div.new-words').click(function(){ //try the .replacewith function here. should work more neatly maybe
  	$(this).after("<br>Hello, Clicked!</br>");
 });
-
+// $('h1').click(function(){
+// 	$('h1').fadeToggle()
+// });
 // $( "div" ).click(function() {
 //   var color = $( this ).css( "background-color" );
 //   $( "#result" ).html( "That div is <span style='color:" +

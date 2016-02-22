@@ -14,6 +14,7 @@ $(document).ready(function(){
 			}, function(){
 				$(this).css("background-color", '#ffffff');
 	});		
+ 	
  	//slide toggle nav bar
  	$('span.navbtn').click(function(){
  		$('ul.nav').slideToggle();
@@ -27,6 +28,10 @@ $(document).ready(function(){
 	//maybe use this for a fade in pics
  	$('div.new-words').click(function(){ //try the .replacewith function here. should work more neatly maybe
  	$(this).after("<br>Hello, Clicked!</br>");
+
+
+
+
 });
 // $('h1').click(function(){
 // 	$('h1').fadeToggle()

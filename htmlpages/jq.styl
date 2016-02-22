@@ -5,23 +5,24 @@ body
 	
 header
 	text-align center
-	padding 2em
+	padding 2em 0em
 	width 100%
 	height 100%
 	background-image url("../img/pwall.jpg")
 
 @font-face {
    font-family: 'aquaFont';
-   src: url('font/aqua.ttf');
+   src: url('../font/aqua.ttf');
    };
 
 @font-face {
    font-family: 'aquaFont';
-   src: url("font/aqua.ttf");
+   src: url("../font/aqua.ttf");
    font-weight: bold;
 };
 	
 header h1
+	font-size 80px
 	font-family aquaFont, sans-serif
 	background-color rgba(#ffffff, .4)
 	color: #283833
@@ -31,10 +32,11 @@ header h1
 	margin-bottom 0
 
 header h3
-	font-family: sans-serif;
+	font-size 60px
+	font-family: aquaFont, sans-serif;
 	background-color rgba(#ffffff, .4)
 	color: #283833
-	padding: 1em
+	padding: .5em
 	display:block;
 	margin-top 0
 .nav
@@ -46,24 +48,29 @@ header h3
 .nav > li
 	display inline-block
 .nav > li > a
+	font-family aquaFont, sans-serif
 	font-size 30px
 	font-style bold
 	color #ffffff 
-	padding .5em
+	padding 1em
 	text-decoration none
 
 @media (max-width 800px)
 	.nav
 		text-align left
 		display none
+		
 	.nav > li
 		display block
+	.nav > li > a
+		padding 0em
 	.navbtn
 		background-color #32544A
 		color #ffffff 
 		text-align center
 		font-size 30px
 		font-style bold
+		font-family aquaFont, sans-serif
 		text-decoration none
 		display block
 	.navbtn:before
